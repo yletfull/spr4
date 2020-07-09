@@ -1,0 +1,32 @@
+.places__title{
+    width: 457px;
+    margin:0;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 65px;
+}
+
+@media (min-width: 0px) and (max-width: 1280px){
+    .places__title{
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: 900;
+    max-width: calc(85%/2);
+    margin-left:5%;
+    }
+}
+@media (min-width: 1028px){
+    .places__title{
+    font-size: 72px;
+    line-height: 65px;
+    }
+}
+@media (max-width: 767px){
+    .places__title{
+    font-size: 32px;
+    line-height: 35px;
+    margin-left: 5%;
+    }
+}

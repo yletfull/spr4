@@ -1,0 +1,19 @@
+
+.video__preview-place{
+    display: flex;
+    flex-direction: row;
+    margin-top:72px;
+}
+
+@media (max-width:1024px){
+    .video__preview-place{
+        margin-top:8%;
+    }
+}
+@media (max-width:767px){
+    .video__preview-place{
+        max-width: 100%;
+        flex-direction: column;
+        
+    }
+}

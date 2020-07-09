@@ -1,0 +1,35 @@
+@import url('./__author/video__author.css');
+@import url('./__button-start/video__button-start.css');
+@import url('./__duration/video__duration.css');
+@import url('./__preview-image/video__preview-image.css');
+@import url('./__preview-place/video__preview-place.css');
+@import url('./__preview-title/video__preview-title.css');
+@import url('./__preview/video__preview.css');
+@import url('./__subtitle/video__subtitle.css');
+@import url('./__title/video__title.css');
+@import url('./__info/video__info.css');
+.video{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 102px auto 0;
+    color: #FFFFFF;
+    max-width: 1184px;
+    align-items: center;
+}
+
+@media (max-width:1024px){
+    .video{
+        margin: 73px 48px 0 48px;
+    }
+}
+@media (max-width:768px){
+    .video{
+        margin: 56px 24px 0 24px;
+    }
+}
+@media (max-width:375px){
+    .video{
+        margin: 64px 16px 0 16px;
+    }
+}

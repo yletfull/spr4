@@ -1,0 +1,43 @@
+.cover__background-image{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+    z-index: -1;
+}
+
+
+@media (max-width : 1024px) {
+    .cover__background-image{
+        min-height: 562px;
+    }
+}
+@media (min-width : 768px) and (max-width: 900px) {
+    .cover__background-image{
+        min-height: 500px;
+    }
+}
+@media (min-width : 321px) and (max-width: 767px)  {
+    .cover__background-image{
+        min-height: 272px;
+    }
+}
+@media (max-width : 320px) {
+    .cover__background-image{
+        min-height: 216px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

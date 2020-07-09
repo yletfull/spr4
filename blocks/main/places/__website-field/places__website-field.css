@@ -1,0 +1,15 @@
+
+.places__website-field{
+    align-self: flex-end;
+    margin: 0 10% 0;
+}
+@media (min-width : 1280px) {
+    .places__website-field{
+        margin: 0 5% 0;
+    }
+}
+@media (max-width : 767px) {
+    .places__website-field{
+        display: none;
+    }
+}

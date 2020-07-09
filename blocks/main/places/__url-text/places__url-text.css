@@ -1,0 +1,18 @@
+.url-text{
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+
+@media (max-width:767px){
+    .url-text{
+       display: none;
+    }
+}

@@ -1,0 +1,13 @@
+@import url('./comments/comments.css');
+@import url('./cover/cover.css');
+@import url('./intro/intro.css');
+@import url('./lead/lead.css');
+@import url('./photo-grid/photo-grid.css');
+@import url('./places/places.css');
+@import url('./video/video.css');
+
+
+.main{
+    overflow-x: hidden; 
+    min-width: 320px;
+}

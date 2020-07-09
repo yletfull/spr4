@@ -1,0 +1,11 @@
+
+.places__row-one{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width : 767px) {
+    .places__row-one{
+        flex-direction: column;
+    }
+}

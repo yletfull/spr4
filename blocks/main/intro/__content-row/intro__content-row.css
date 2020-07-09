@@ -1,0 +1,6 @@
+
+.intro__content-row{
+    margin-top:35px;
+    display: flex;
+    flex-direction: row;
+}

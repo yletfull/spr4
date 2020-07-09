@@ -1,0 +1,21 @@
+.comments__quote{
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 382px;
+    margin-top:42px;
+}
+
+@media (max-width : 770px) {
+    .comments__quote{
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 23px;
+    order: 2;
+    text-align: center;
+    margin-bottom: 5%;
+    }
+}
+

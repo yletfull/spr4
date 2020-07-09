@@ -1,0 +1,25 @@
+.video__button-start{
+    position: absolute;
+    top:30px;
+    left:30px;
+}
+
+
+@media (max-width:1023px){
+    .video__button-start{
+        top:25px;
+        left:25px;
+    }
+}
+@media (max-width:375px){
+    .video__button-start{
+        top:24px;
+        left:24px;
+    }
+}
+@media (max-width:320px){
+    .video__button-start{
+        top:16px;
+        left:16px;
+    }
+}

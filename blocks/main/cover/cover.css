@@ -1,0 +1,33 @@
+@import url('./__background-image/cover__background-image.css');
+@import url('./__link/cover__link.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__title/cover__title.css');
+
+.cover{
+    position: relative;
+    margin:102px auto 0;
+    max-width: 1184px;
+    height: 594px;
+    text-decoration: none;
+    color: #FFFDFD;
+    height: 100%;
+}
+
+@media (max-width : 768px) {
+    .cover{
+        min-width: 320px;
+        max-width: 100%;
+        height: 100%;
+        margin-top: 102px;
+    }
+}
+@media (max-width : 375px) {
+    .cover{
+        margin-top: 48px;
+    }
+}
+@media (max-width : 320px) {
+    .cover{
+        margin-top: 64px;
+    }
+}

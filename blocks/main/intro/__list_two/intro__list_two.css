@@ -1,0 +1,19 @@
+.intro__list_two{
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    margin: 24px 0 0 0;
+    list-style: none;
+}
+
+@media (max-width: 767px){
+    .intro__list_two{
+        font-size: 12px;
+        line-height: 19px;
+        margin: 32px 0 0 0;
+    }
+}
