@@ -1,4 +1,4 @@
-# 1. Yandex praktikum sprint 4 
+# 1. Проект “Путешествия по России”.
 Andrey Korlyakov  
 
 ## 2. Актуальная версия  
